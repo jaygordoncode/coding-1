@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Grid Review </title>
+    <style>
+        .divRules {
+            background-color: forestgreen;
+            height: 35px;
+            width: 35px;
+            margin: 10px;
+            font-size: 30px;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: auto auto auto;
+        }
+
+        .nav {
+            display: grid; 
+            grid-template-columns: auto;
+        }
+       .bodyMain{
+        display: grid;
+        grid-template-columns: auto auto; 
+       }
+       #navSpecific{
+        width: 1200px;
+       }
+    </style>
+</head>
+
+<body class="container">
+    <div class="nav">
+        <div class="divRules" id="navSpecific ">1</div>
+    </div>
+    <div class="bodyMain"></div>
+        <div class="divRules" style="width: 900px; height: 250px;">2 </div>
+        <div class="divRules" style="width: 200px; height: 250px;">3</div>
+    </div>
+    <div class="divRules">4</div>
+    <div class="divRules">5</div>
+    <div class="divRules">6</div>
+    <div class="divRules">7</div>
+</body>
+
+</html>
