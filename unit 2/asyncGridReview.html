@@ -6,38 +6,24 @@
     <style>
         .divRules {
             background-color: forestgreen;
-            height: 35px;
-            width: 35px;
+            height: 50px;
+            width: 50px;
             margin: 10px;
-            font-size: 30px;
         }
 
-        .container {
+        .mainContainer{
             display: grid;
-            grid-template-columns: auto auto auto;
+            grid-template-columns: auto auto;
         }
-
-        .nav {
-            display: grid; 
-            grid-template-columns: auto;
-        }
-       .bodyMain{
-        display: grid;
-        grid-template-columns: auto auto; 
-       }
-       #navSpecific{
-        width: 1200px;
-       }
-    </style>
+     </style>
 </head>
 
-<body class="container">
-    <div class="nav">
-        <div class="divRules" id="navSpecific ">1</div>
-    </div>
-    <div class="bodyMain"></div>
-        <div class="divRules" style="width: 900px; height: 250px;">2 </div>
-        <div class="divRules" style="width: 200px; height: 250px;">3</div>
+<body>
+        <div class="divRules" style="width: 1200px;">1</div>
+    
+    <div class="mainContainer">
+        <div class="divRules" style="width: 670px; height: 300px;">2 </div>
+        <div class="divRules" style="width: 450px; height: 300px;">3</div>
     </div>
     <div class="divRules">4</div>
     <div class="divRules">5</div>
