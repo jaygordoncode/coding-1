@@ -28,3 +28,36 @@ def sandwichInstructions():
     
     #this is a fucntion call
     sandwichInstructions()
+    
+    # 11/20/24
+    
+    # functions using artihmetic operators 
+    
+    def depositMoney():
+        checkingAccount = 100
+        print('money has been deposited successfully')
+        print('new checking account balance is below:') 
+        print(X + checkAccountBalance) 
+        
+    depositMoney(35)
+    depositMoney(200)
+    depositMoney(95)
+    
+    def withdrawMoney():
+        widthdrawSet = 75
+        print('money had been widthdrawed successfully')
+        print('set amount had been dropped below: ')
+        print(X + widthdrawSet)
+        
+    withdrawMoney(30)
+    withdrawMoney(25)
+    withdrawMoney(20)
+   
+    
+    
+    def checkAccountBalance():
+        accountBalance = 5000
+        print('check how much money is present in your account')
+        print(accountBalance)
+    
+  
