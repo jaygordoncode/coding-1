@@ -28,3 +28,30 @@ def verifyAge(age):
         
 verifyAge(15)
 verifyAge(19)
+
+#Activity
+
+def driversLicense(age):
+    if age > 18:
+        print( 'You are now able to take your drivers test and achieve your drivers license!')
+    if age == 16:
+        print('You are not old enough for a drivers license but you can obtain your drivers permit')
+    else:
+        print('Sorry, you are too young to drive. Make sure you have an adult with you at all times in a vehicle!')
+        
+driversLicense(27)
+
+
+# Conditional statements. if/else keywords; gives us the ability to control outcomes and make decisions on data 
+
+# food expiration software is an example of using conditional statements. if the food expires it needs to be thrown away
+#otherwise, or else it can be eaten 
+
+def foodExpiration(date):
+    expirationDate = '12/5/24'
+    if date == expirationDate:
+        print('throw food away')
+    else;
+        print('food is still good')
+        
+foodExpiration('12/5/24')
