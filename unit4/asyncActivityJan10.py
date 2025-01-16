@@ -12,3 +12,10 @@ numbers = [1, 30, 39, 50, 293, 100]
 print(numbers[0])
 print(numbers[3])
 print(numbers[4])
+
+
+def traveledPlaces():
+    
+    place = input("where have you traveled to?")
+    
+    print(place)
