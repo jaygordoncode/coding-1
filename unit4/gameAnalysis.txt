@@ -1,0 +1,9 @@
+# 1. Some key elements of the game is youre in a freeroam shooter where you roam around shooting globs and monster 
+
+# 2. you would use WASD keys and use the mouse to move jthe gun around and shoot with the left click
+
+# 3. its  like a 16 bit game and has some pretty nice animatins for th egun and the monsters 
+
+# 4. its like waves and theyre trying to win the game by defeating all the monsters. it would be about 100 waves gradually getting harder 
+
+# 5. the way it looks and the mechanics of the game i believe. 
